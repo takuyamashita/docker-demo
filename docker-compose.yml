@@ -1,1 +1,9 @@
-version: 3.8
+version: '3.8'
+
+services:
+  dev:
+    build: .
+    volumes:
+      - ./my-docker:/src
+    tty: true
+    working_dir: /src
