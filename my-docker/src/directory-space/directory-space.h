@@ -1,6 +1,8 @@
-#ifndef SEPARATE_DIRECTORY
-#define SEPARATE_DIRECTORY
+#ifndef __SEPARATE_DIRECTORY
+#define __SEPARATE_DIRECTORY
 
-void separateDirectory();
+#include "../commons/commons.h"
+
+void separateDirectory(const char *rootDirectory);
 
 #endif
