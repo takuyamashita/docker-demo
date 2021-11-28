@@ -6,4 +6,5 @@ services:
     volumes:
       - ./my-docker:/src
     tty: true
+    privileged: true
     working_dir: /src

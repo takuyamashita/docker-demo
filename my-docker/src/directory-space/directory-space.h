@@ -1,5 +1,5 @@
-#ifndef __SEPARATE_DIRECTORY
-#define __SEPARATE_DIRECTORY
+#ifndef __DIRECTORY_SPACE
+#define __DIRECTORY_SPACE
 
 #include "../commons/commons.h"
 

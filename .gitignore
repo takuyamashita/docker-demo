@@ -1,3 +1,5 @@
 *.o
 my-container
 base-image
+/my-docker/container-root
+/.vscode/
