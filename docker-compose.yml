@@ -4,7 +4,7 @@ services:
   dev:
     build: .
     volumes:
-      - ./my-docker:/src
+      - ./my-container:/src
     tty: true
     privileged: true
     working_dir: /src

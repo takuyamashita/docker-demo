@@ -1,5 +1,6 @@
 *.o
-my-container
+/my-container/src/my-container
+/my-container/container-root
 base-image
-/my-docker/container-root
 /.vscode
+.DS_Store
